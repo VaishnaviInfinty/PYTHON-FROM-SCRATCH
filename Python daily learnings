@@ -1,0 +1,19 @@
+# DAY 1 03-01-24
+
+#All arthematic operators
+n=4
+m=5 
+a = m+n
+print("The addition of" ,n, "and", m, "is", a)
+b = m-n
+print("The substraction of ",n,"and" ,m ,"is", b)
+c = m*n
+print("The multiplication of ",n,"and" ,m ,"is" ,c)
+d = m/n
+print("The division of ",n,"and" ,m, "is" ,d)
+e = m//n
+print("The float division of ",n,"and", m, "is", e)
+f = m%n
+print("The remainder of ",n,"and" ,m, "is" ,f)
+g = m**n
+print("The exponential value of ",n,"and", m ,"is", g)
