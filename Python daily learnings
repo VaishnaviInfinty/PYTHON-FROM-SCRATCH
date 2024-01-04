@@ -17,3 +17,26 @@ f = m%n
 print("The remainder of ",n,"and" ,m, "is" ,f)
 g = m**n
 print("The exponential value of ",n,"and", m ,"is", g)
+
+#DAY 2  04-01-24
+
+#Typecasting
+
+a="3"
+b="2"
+print(a+b)
+print(int (a)+int (b))# Explicit
+#input from the user
+c= input("Enter the number")
+d=input("enter the number")
+print(int(c)+int (d))
+# fstring
+age=input()
+print(f"my age is {age}")
+
+#format
+name = "vaishnavi"
+age = 20
+print("my name is {} and age is {}". format(name, age))
+#placeholder
+print('my name is {fname} and age is {fage}'. format(fage=age, fname=name))
